@@ -38,3 +38,11 @@ html {
 	font-size: 12px;
   color: #fff;
 }
+
+.compose-btn{
+position: absolute;
+right: 28%;
+top: 12%;
+background-color: #171717;
+color: #E1E8EB;
+}

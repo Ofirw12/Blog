@@ -68,6 +68,10 @@ app.post("/compose", function(req, res){
 
 });
 
+app.post("/", function(req,res){
+  res.redirect("/compose")
+});
+
 app.get("/posts/:postId", function(req, res){
   const requestedPostId = req.params.postId;
 
